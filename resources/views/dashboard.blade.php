@@ -41,7 +41,7 @@
 
                 @include('shared.submit-idea')
 
-                @include('shared.submit-idea')
+
                 <hr>
                 @foreach ($ideas as $idea )
 
