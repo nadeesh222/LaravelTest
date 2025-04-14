@@ -18,7 +18,7 @@ $idea = new Idea([
 
 $idea->save();
 
-return redirect()->route('dashboard');
+return redirect()->route('dashboard')->with('success','Idea created successfully');
 
     }
 }
