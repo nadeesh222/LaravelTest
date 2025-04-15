@@ -3,7 +3,7 @@
 
 
                 <div class="row">
-                    <form method="post" action="{{route('idea.create')}}">
+                    <form method="post" action="{{route('ideas.store')}}">
                         @csrf
                     <div class="mb-3">
                         <textarea class="form-control" name="idea" id="idea" rows="3"></textarea>
